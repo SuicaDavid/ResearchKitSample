@@ -20,6 +20,7 @@
 		F119DA6725FC2BE5000C9985 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F119DA5F25FC2AE8000C9985 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F119DA6C25FC307A000C9985 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119DA6B25FC307A000C9985 /* ConsentTask.swift */; };
 		F119DA7225FC46E3000C9985 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119DA7125FC46E3000C9985 /* SurveyTask.swift */; };
+		F119DA7825FC4FED000C9985 /* ActiveTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119DA7725FC4FED000C9985 /* ActiveTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		F119DA5825FC2AE8000C9985 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../ResearchKit-main/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
 		F119DA6B25FC307A000C9985 /* ConsentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		F119DA7125FC46E3000C9985 /* SurveyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		F119DA7725FC4FED000C9985 /* ActiveTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				F119DA2B25FC2AD8000C9985 /* SampleResearchKit.xcdatamodeld */,
 				F119DA6B25FC307A000C9985 /* ConsentTask.swift */,
 				F119DA7125FC46E3000C9985 /* SurveyTask.swift */,
+				F119DA7725FC4FED000C9985 /* ActiveTask.swift */,
 			);
 			path = SampleResearchKit;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			files = (
 				F119DA6C25FC307A000C9985 /* ConsentTask.swift in Sources */,
 				F119DA2725FC2AD8000C9985 /* ViewController.swift in Sources */,
+				F119DA7825FC4FED000C9985 /* ActiveTask.swift in Sources */,
 				F119DA7225FC46E3000C9985 /* SurveyTask.swift in Sources */,
 				F119DA2D25FC2AD8000C9985 /* SampleResearchKit.xcdatamodeld in Sources */,
 				F119DA2325FC2AD8000C9985 /* AppDelegate.swift in Sources */,

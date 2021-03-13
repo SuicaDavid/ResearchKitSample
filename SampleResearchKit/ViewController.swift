@@ -34,6 +34,9 @@ class ViewController: UIViewController, ORKTaskViewControllerDelegate {
     }
         
     @IBAction func activeTaskClicked(sender : AnyObject) {
+        let taskViewController = ORKTaskViewController(task: ActiveTask, taskRun: nil)
+        taskViewController.delegate = self
+        present(taskViewController, animated: true, completion: nil)
     }
     
     func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
